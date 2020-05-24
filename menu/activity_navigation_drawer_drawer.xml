@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_relatives"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Relatives" />
+
+        <item
+            android:id="@+id/nav_lagan"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Lagan" />
+        <item
+            android:id="@+id/nav_bhath"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Bhath" />
+
+        <item
+            android:id="@+id/nav_chak"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Chak" />
+        <item
+            android:id="@+id/nav_barath"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Barath" />
+        <item
+            android:id="@+id/nav_vedhi"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Vedhi" />
+        <item
+            android:id="@+id/nav_ghar_praves"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Ghar praves" />
+        <item
+            android:id="@+id/nav_birthday"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="BirthDay(PVN)" />
+
+    </group>
+
+</menu>
