@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.p.mrmrsmksaini">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main_flase_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Navigation_drawer"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Help"
+            android:parentActivityName=".Navigation_drawer" />
+        <activity
+            android:name=".Setting"
+            android:parentActivityName=".Navigation_drawer" />
+        <activity
+            android:name=".Feedback"
+            android:parentActivityName=".Navigation_drawer" />
+        <activity
+            android:name=".Barath"
+            android:parentActivityName=".Navigation_drawer" />
+        <activity
+            android:name=".Bhath"
+            android:parentActivityName=".Navigation_drawer" />
+        <activity
+            android:name=".Birthday"
+            android:parentActivityName=".Navigation_drawer" />
+        <activity
+            android:name=".Chak"
+            android:parentActivityName=".Navigation_drawer" />
+        <activity
+            android:name=".Ghar_praves"
+            android:parentActivityName=".Navigation_drawer" />
+        <activity
+            android:name=".Vedhi"
+            android:parentActivityName=".Navigation_drawer" />
+        <activity
+            android:name=".Lagan"
+            android:parentActivityName=".Navigation_drawer" />
+        <activity
+            android:name=".Relativesp"
+            android:label="@string/title_activity_relativesp"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
